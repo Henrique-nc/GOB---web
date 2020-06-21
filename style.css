@@ -1,0 +1,368 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: FF mark;
+    src: url(FF\ Mark.otf)
+}
+
+ul {
+    padding: 0px !important;
+}
+
+li {
+    font-family: "FF mark";
+}
+
+h1, h2 {
+    font-family: "FF mark";
+}
+
+h2 {
+    font-weight: normal!important;
+}
+
+p {
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+}
+
+b {
+    font-family: "FF mark";
+}
+
+/* Conteiner & Main */
+
+main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.content {
+    text-align: center;
+    color: #010101;
+    font-size: 30px;
+}
+
+.content p {
+    color: #646464;
+    font-size: 25px;
+    cursor: default;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    display: block;
+    position: relative;
+    text-align: center;
+    letter-spacing: 0.1em;
+    transition: opacity 500ms ease-out 400ms;
+}
+
+/* Geral de cada parte */
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.col-3 {
+    text-align: center;
+    padding-left: 22px;
+    padding-right: 20px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+.col-3 p {
+    font-size: 25px;
+}
+
+.col-3 h3 {
+    color: #646464;
+    font-size: 15px;
+    cursor: default;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    display: block;
+    position: relative;
+    text-align: center;
+    letter-spacing: 0.1em;
+    transition: opacity 500ms ease-out 400ms;
+}
+
+.col-4 {
+    border-radius: 100%;
+    width: 10em;
+}
+
+.col-5 {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+.col-5 p {
+    font-size: 25px;
+}
+
+.col-5 h3 {
+    color: #646464;
+    font-size: 15px;
+    cursor: default;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    display: block;
+    position: relative;
+    text-align: center;
+    letter-spacing: 0.1em;
+    transition: opacity 500ms ease-out 400ms;
+}
+
+.col-6 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.col-6 img {
+    cursor: pointer;
+    margin: 0 auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 30px;
+    padding-right: 30px;
+    vertical-align: middle;
+}
+
+/* Pagina dos campeoes */
+
+.bloco-camps {
+    margin-top: 1em;
+}
+
+.col-7 {
+    width: 29%;
+    margin: auto;
+    float: left;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+
+.col-8 {
+    border-radius: 99%;
+    width: 10em;
+}
+
+/* Parte da Logo */
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 10px;
+    padding-left: 150px;
+}
+
+.menu1 {
+    width: 100%;
+    background-color: #111111;
+    height: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Parte de navegação */
+
+.top1 {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.top-main {
+    border-bottom: 4px solid rgb(205, 203, 205);
+    height: 90px;
+}
+
+.top-main a {
+    cursor: pointer;
+}
+
+.nav {
+    width: 60%;
+    float: left;
+    padding-left: 100px;
+}
+
+.nav ul li {
+    display: inline-block;
+    color: #010101;
+    margin-left: 25px;
+    height: 58px;
+}
+
+.nav ul li:hover {
+    border-bottom: 4px solid #0bc6e3;
+}
+
+.nav ul li a {
+    color: #010101;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+
+.busca input {
+    background-image: url(/nav/lupa.png);
+    background-repeat: no-repeat;
+    background-position: 96%;
+    height: 36px;
+    width: 190px;
+    margin-top: 10px;
+    padding-left: 12px;
+    border: 2px solid #010101;
+}
+
+/* Campeões favoritos */
+
+.bloco-favoritos {
+    margin-top: 1em;
+}
+
+/* Guias */
+
+.bloco-imagem {
+    height: 560px;
+    border: 1px solid #c5c5c5;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 20px;
+}
+
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.bloco-imagem b, p {
+    text-align: left;
+}
+
+.bloco-distancia {
+    margin-top: 30px;
+}
+
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+}
+
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('/footer/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '>';
+    height: 70px;
+    background: #eeeeee;
+}
+
+/* Pé */
+
+.footer {
+    background-image: url(/footer/footer.png);
+    color: #c1c1c1;
+    height: 90px;
+}
+
+.footer p {
+    padding: 10px;
+    font-family: "FF mark";
+}
+
+/* SLICKER */
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 30px;
+    height: 60px;
+    background-color: transparent;
+    background-image: url('/nav/seta-es.png');
+    z-index: 9;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 30px;
+    height: 60px;
+    background-color: transparent;
+    background-image: url('/nav/seta-di.png');
+    z-index: 9;
+    position: absolute;
+    top: 45%;
+    right: 10%;
+}
+
+.slick-list {
+    width: 100%!important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 2px solid #f9f9f9;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}  
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 900px;
+    top: 980px;
+}
+
+.slick-dots li {
+    display: inline-block;
+    padding-left: 14px;
+}
+
+li.slick-active button {
+    background: #0bc6e3;
+    border: 5px;
+}
