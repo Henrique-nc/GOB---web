@@ -227,7 +227,7 @@ main, .content {
 }
 
 .busca input {
-    background-image: url(/nav/lupa.png);
+    background-image: url(nav/lupa.png);
     background-repeat: no-repeat;
     background-position: 96%;
     height: 36px;
@@ -277,7 +277,7 @@ main, .content {
     content: '';
     height: 52px;
     background: #ffffff;
-    background-image: url('/footer/setinha.png');
+    background-image: url('footer/setinha.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -293,7 +293,7 @@ main, .content {
 /* Pé */
 
 .footer {
-    background-image: url(/footer/footer.png);
+    background-image: url(footer/footer.png);
     color: #c1c1c1;
     height: 90px;
 }
@@ -311,7 +311,7 @@ button.slick-prev {
     width: 30px;
     height: 60px;
     background-color: transparent;
-    background-image: url('/nav/seta-es.png');
+    background-image: url('nav/seta-es.png');
     z-index: 9;
     position: absolute;
     top: 45%;
@@ -324,7 +324,7 @@ button.slick-next {
     width: 30px;
     height: 60px;
     background-color: transparent;
-    background-image: url('/nav/seta-di.png');
+    background-image: url('nav/seta-di.png');
     z-index: 9;
     position: absolute;
     top: 45%;
