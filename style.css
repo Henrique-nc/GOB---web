@@ -39,6 +39,8 @@ main, .content {
     margin: 0 auto;
     width: 980px;
     position: relative;
+    justify-content: center;
+    align-items: center
 }
 
 .content {
